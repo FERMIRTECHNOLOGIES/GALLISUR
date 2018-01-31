@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="us">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<title>Industrias GalliSur</title>
 	<link href="css/jquery-ui.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/jq.css" type="text/css" media="print, projection, screen" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="print, projection, screen" />
+	<link rel="stylesheet" href="css/jq.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 	<script src="js/jquery-1.12.4.js"></script>
 	<script src="js/external/jquery/jquery.js"></script>
 	<script src="js/jquery-ui.js"></script>
-	<script type="text/javascript">
+	<script >
 		var j$123 = $.noConflict(true);
 	</script>
-	<script type="text/javascript" src="js/jquery-latest.js"></script>
-	<script type="text/javascript" src="js/jquery.tablesorter.js"></script>
-	<script type="text/javascript" src="js/jquery.tablesorter.pager.js"></script>
+	<script src="js/jquery-latest.js"></script>
+	<script  src="js/jquery.tablesorter.js"></script>
+	<script src="js/jquery.tablesorter.pager.js"></script>
 
 </head>
 <body>
@@ -46,17 +46,17 @@
 		   <option>Gallos</option>
 	   </select>
 		 <h3>Origen</h3>
-		 <input type="text" id="txt_origen" name="" value="" class="caja-texto">
+		 <input type="text" id="txt_origen" name="z" value="" class="caja-texto">
 
 		 <h3>Cantidad</h3>
-		 <input type="number" id="txt_cantidad" name="" value="" class="caja-texto">
+		 <input type="number" id="txt_cantidad" name="zz" value="" class="caja-texto">
 		</div>
 		<div class="">
 		 <h3>Aves muertas</h3>
-		 <input type="number" id="txt_muertas" name="" value="" class="caja-texto">
+		 <input type="number" id="txt_muertas" name="zzz" value="" class="caja-texto">
 
 		 <h3>Camión</h3>
-		 <input type="text" id="txt_camion" name="" value="" class="caja-texto">
+		 <input type="text" id="txt_camion" name="zzzz" value="" class="caja-texto">
 		 <br>
 		 <br>
 		 <br>
@@ -97,7 +97,7 @@
 	<div class="ui-widget">
 	<div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;">
 		<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-		<strong>Mensaje!</strong> <p id="message"></p> </p>
+		<strong>Mensaje!</strong> <p id="message">""</p> </p>
 	</div>
 </div>
 </div>
@@ -107,7 +107,7 @@
 <div id="dialog_single_button" title="Mensaje!">
 	<p id="mensaje2"></p>
 </div>
-<script type="text/javascript" src="js/elementos.js"></script>
-<script type="text/javascript" src="js/funciones.js"></script>
+<script src="js/elementos.js"></script>
+<script src="js/funciones.js"></script>
 </body>
 </html>
