@@ -1,8 +1,4 @@
-<?php
-@session_start();
-  unset($_SESSION['usuario']);
-  session_destroy();
-?>
+
 <html www.jquery.com>
 <head>
     <meta charset="UTF-8">

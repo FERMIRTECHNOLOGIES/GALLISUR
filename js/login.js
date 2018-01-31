@@ -71,9 +71,9 @@ function Proceso(valor, valor2){
 	        },
 	        success:  function (respuesta) {
 			    var json = eval("(" + respuesta + ")");
-alert("fdf");
+
 		if((json.confirmacion).toString()== "true"){
-alert((json.confirmacion).toString());
+
 				$(location).attr('href',"Principal.php");
 
                 }
