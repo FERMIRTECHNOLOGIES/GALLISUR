@@ -23,9 +23,9 @@
 
 </div>
 </div>
-<section class="about"><h1>
+<h1><section class="about">
 <p class="author">&copy; 2018 Hecho por FERMIR TECHNOLOGIES</p>
-<h1/></section>
+</section><h1/>
 <div id="error">
 <div style="box-shadow: 3px 3px 9px -3px rgba(0, 0, 0, 0.4);">
 <div id="bar_error">
