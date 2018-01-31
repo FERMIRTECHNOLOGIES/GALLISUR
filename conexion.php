@@ -10,11 +10,11 @@ class conexion {
     private $resultado ;
 
     public function __construct() {
-
-        $this->servidor = "localhost";
-        $this->usuario = "root";
-        $this->pass = "123";
-        $this->base_datos = "db_gallisur";
+mysql://b47aba2048a075:14d23172@us-cdbr-iron-east-05.cleardb.net/heroku_6164198e595ca49?reconnect=true
+        $this->servidor = "us-cdbr-iron-east-05.cleardb.net";
+        $this->usuario = "b47aba2048a075";
+        $this->pass = "14d23172";
+        $this->base_datos = "heroku_6164198e595ca49";
         $this->conectar_base_datos();
     }
 
